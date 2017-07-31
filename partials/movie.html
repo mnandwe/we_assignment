@@ -1,0 +1,39 @@
+<section class="movieinfo">
+	<div class="Nav-bg">
+		
+		<span>
+			<a href='index.html'><i class="fa fa-arrow-left"></i></a>
+			MovieDetail
+		</span>
+		<a class='menu-button'><i class="fa fa-ellipsis-v"></i></a>
+	</div>
+	<div class="movie cf" >
+		<div class="Header-bg">
+		
+		<h1>{{movie.title}}</h1>
+		
+		</div>
+		<div class="movie-info">
+			<div class="md-card">
+			<div class="md-card-title-media">
+				<div class="md-media-lg card-media"><img ng-src="http://image.tmdb.org/t/p/{{w_width}}//{{movie.poster_path}}" alt="Photo of {{movie.title}}"></div>
+			</div>
+			<div class="md-card-title-text">
+				<span class="md-headline movie-info-detail movie-info-release">
+					{{movie.release_date}}
+				</span>
+				<span class="md-subhead movie-info-detail movie-info-runtime">
+					{{movie.runtime}} min
+				</span>
+				<span class="md-subhead movie-info-detail movie-info-rate">
+					{{movie.vote_average}}/10
+				</span>
+				<span class="md-subhead movie-info-detail movie-info-fav">
+					MARK AS FAVOURITE
+				</span>
+			</div>
+			</div>
+			<div class="movie-info-detail movie-info-overview ">{{movie.overview}}</div>
+		</div>
+	</div>
+</section>

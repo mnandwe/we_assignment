@@ -1,0 +1,177 @@
+/* @override 
+  http://planetoftheweb.com/_/css/styles.css */
+
+@import url("http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,700,900|Droid+Sans:400,700");
+
+/* Reset Styles */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; 
+  font-family:Helvetica,'Open Sans';
+  }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style-type: none; 
+  }
+  
+li{
+	display:inline-block;
+}
+
+a.menu-button{
+	float:right;
+	margin-right:2.6rem;
+}
+
+#movielist {
+	padding:0;
+	background-color:#000;
+}
+
+#movielist div.movie{
+	display:inline-block;
+}
+
+.Nav-bg a{
+  font-size:3.4rem;
+  color:#fff;
+	}
+.Nav-bg span{
+	
+  font-size:3.4rem;
+  font-weight:bold;
+  color:#fff;
+}
+.Nav-bg {
+  background-color: #212121;
+  font-family:Helvetica,'Open Sans';
+  font-family:3.4rem;
+  font-weight:bold;
+  padding-left:24pt;
+  padding-top:18pt;
+  padding-bottom:18pt;
+  
+}
+
+.poster{
+	width:50%;
+	vertical-align:top;
+  object-fit: contain;
+}
+.poster a{margin:0;padding:0;}
+.poster img{
+	width:100%;
+}
+
+.Header-bg h1{
+  font-family: Helvetica;
+  font-size: 4.2rem;
+  font-weight: 300;
+  text-align: left;
+  color: #ffffff;
+}
+.Header-bg {
+  height: 9.09rem;
+  background-color: #009688;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
+  padding-left:2.4rem;
+  padding-top:2.1rem;
+}
+
+.movie-info{
+	padding:2.4rem;
+}
+
+.md-card{
+	margin-bottom:2.4rem;
+}
+
+
+.md-card-title-media{
+	width:45%;
+	display:inline-block;
+	vertical-align:top;
+	}
+.md-card-title-text{
+	width:50%;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.movie-info-detail{
+	display:block;
+	}
+.movie-info-release{
+	font-family: Helvetica;
+  font-size: 2.4rem;
+  font-weight: 300;
+  text-align: left;
+  color: #747474;
+  margin-bottom:0.4rem;
+}
+.movie-info-runtime{
+	font-family: Helvetica;
+  font-size: 2.4rem;
+  font-style: oblique;
+  text-align: left;
+  color: #747474;
+  margin-bottom:1.6rem;
+}
+.movie-info-rate{
+	 font-family: Helvetica;
+  font-size: 1.6rem;
+  text-align: left;
+  color: #000000;
+  font-weight:bold;
+  margin-bottom:1.6rem;
+}
+.movie-info-overview{
+	 font-family: Helvetica;
+  font-size: 2rem;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #747474;
+}
+
+.movie-info-fav{
+	 width: 10.4rem;
+  height: 4rem;
+  background-color: #86e4db;
+  border: solid 1px #6fcac2;
+  font-family: Helvetica;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #757373;
+  padding:1.6rem;
+}
+
+@media screen and (max-width=320px){
+	
+
+.md-card-title-media{
+	vertical-align:top;
+	text-align:center;
+	}
+.md-card-title-text{
+}
+}

@@ -1,0 +1,16 @@
+<section class="moviepage">
+	<div class="Nav-bg">
+		<span>Pop Movies</span>
+		<a class='menu-button'><i class="fa fa-ellipsis-v"></i></a>
+	</div>
+	<div>
+	<div id="movielist">
+		<div class="movie poster " ng-repeat="item in movies ">
+			<a href="#/details/{{item.id}}">
+				<img ng-src="http://image.tmdb.org/t/p/{{w_width}}//{{item.poster_path}}" alt="Photo of {{item.title}}">
+			</a>
+			
+		</div>
+	</div>  
+	</div>  
+</section>
